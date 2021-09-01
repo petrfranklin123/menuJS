@@ -1,0 +1,50 @@
+body{
+    text-transform: uppercase;
+}
+
+
+.nav{
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+}
+.nav li a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    background: #bbb;
+    margin: 1px;
+    color: #fff;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 2s;
+}
+.nav a:hover{
+    color: brown;
+    background: cadetblue;
+}
+.btn{
+    margin-left: 30px;
+}
+.btn a{
+
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    background: #bbb;
+    margin: 1px;
+    color: #fff;
+    padding-left: 15px;
+    cursor: pointer;
+    transition: 2s;
+
+}
+.btn a:hover{
+    color: #fd0000;
+    background: darkblue;
+
+}

@@ -1,0 +1,74 @@
+body{
+    background-image: url(../img/prism.png);
+}
+header{
+    margin-top: 200px;
+    font-family: 'Roboto', sans-serif;
+}
+.dws-menu{
+    margin: 0;
+    padding: 0;
+}
+.dws-menu ul li{
+    list-style: none;
+    border-right: 1px solid rgb(245, 3, 3);
+}
+.dws-menu > ul{
+    display: flex;
+    justify-content: center;
+}
+.dws-menu > ul li a{
+    display: block;
+    background: #ececed;
+    padding:  15px 30px 15px 40px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.dws-menu  > ul li{
+    position: relative;
+}
+.dws-menu > ul li:first-child{
+    border-left: 1px solid rgb(245, 3, 3);
+}
+.dws-menu > ul li:last-child{
+    border-right: 1px solid rgb(245, 3, 3);
+}
+.dws-menu li a:hover{
+    background: #454547;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*-----------Подменю------------*/
+.dws-menu li ul{
+    position: absolute;
+    left: -41px;
+    min-width: 158px;
+    display: none;
+}
+.dws-menu li > ul li{
+    border:  1px solid #454547;
+}
+.dws-menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    text-align: center;
+    background: e4e4e5;
+}
+.dws-menu li > ul li ul{
+    position: absolute;
+    left: 116px;
+    top: -1px;
+    right: -116px;
+    
+}
+
+/* Разворот меню */
+
+.dws-menu li:hover > ul{
+    display: block;
+}
